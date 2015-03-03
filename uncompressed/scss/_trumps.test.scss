@@ -54,7 +54,8 @@ button{
   outline: 0;
   border-style: solid;
   border-color: $darkBlue;
-  border-radius: 1em;
+  border-radius: 0.5em;
+  padding: 0.2em;
   &:hover{
     background: $darkBlue;
   }
@@ -65,8 +66,10 @@ input{
   color: $cream;
   font-size: 1em;
   border-color: $darkBlue;
-  
-  width:35%;
+  border-radius: 0.5em;
+  width:27.5%;
+  padding: 0.2em;
+   outline: none;
   &:focus{
     background:$darkBlue;
   }
