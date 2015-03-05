@@ -21,12 +21,12 @@ h2{
 
 h3{
   font-size: 1.1em;
-  margin:0.2em 0;
+  margin:0.2em 0 0.2em 0;
 }
 
 p{
   font-size: 1em;
-  margin: 1em 0;
+  margin: 1em 0.2em;
 }
 
 a{
@@ -45,6 +45,14 @@ a:hover{
 
 a:visited{ 
   color: $grey;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+    display: inline;
+    margin: 0 1em 0 0;
 }
 
 button{
@@ -79,4 +87,31 @@ input{
   width:90%;
   max-width:40em;
   margin:0 auto;
+}
+.scale{
+  padding:0.1%;
+  max-width: 100%;
+  margin: 2% 0;
+}
+.scaleHalf{
+  padding:0.05%;
+  max-width: 25%;
+  margin: 1% 0;
+}
+.scaleQuarter{
+  padding: 0% 0.05% 0 0.05%;
+  max-width: 12.5%;
+  margin: 1.25% 0 0 1%;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
 }
